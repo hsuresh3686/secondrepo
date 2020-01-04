@@ -1,0 +1,205 @@
+    1  pwd
+    2  git config --global user.name "Suresh Kumar H
+    3  ""
+    4  git config --global user.name "Suresh Kumar"
+    5  git config --global user.email "hsuresh3686@gmail.com"
+    6  git --version
+    7  vi 1.txt
+    8  ls 
+    9  git init
+   10  git push
+   11  git push 1.txt
+   12  ssh-keygen -t rsa -C "hsuresh3686@gmail.com"
+   13  ls
+   14  ls -ltr
+   15  ls -ltra
+   16  cd .ssh/
+   17  ls -ltr
+   18  cat id_rsa.pub 
+   19  cd ../
+   20  ls -ltr
+   21  git push
+   22  ssh -T git@github.com
+   23  git clone https://hsuresh3686@bitbucket.org/hsuresh3686/testrepo.git
+   24  ls -ltr
+   25  cd testrepo/
+   26  ls -ltr
+   27  git init
+   28  ls -ltr
+   29  cat README.md 
+   30  git clone https://hsuresh3686@bitbucket.org/hsuresh3686/testrepo.git
+   31  ls -ltr
+   32  cat README.md 
+   33  more README.md 
+   34  head README.md 
+   35  ls -ltr
+   36  cd testrepo/
+   37  ls -ltr
+   38  cat README.md 
+   39  head README.md 
+   40  head -50 README.md 
+   41  clear
+   42  git status
+   43  echo "This is the 1st File" >> 1.txt
+   44  ls -ltr
+   45  cat 1.txt 
+   46  git status
+   47  git commit
+   48  git add 1.txt 
+   49  cat 1.txt 
+   50  vi 1.txt 
+   51  git status
+   52  git commit -m "Initial Commit"
+   53  git status
+   54  cd ../
+   55  cd ../
+   56  ls -ltr
+   57  mkdir sample
+   58  cd sample/
+   59  cd ../testrepo/
+   60  cd testrepo/
+   61  ls -ltr
+   62  cat 1.txt 
+   63  git push origin master
+   64  dir
+   65  ls -ltr
+   66  cat 1.txt 
+   67  echo "2nd File" > second.txt
+   68  ls -ltr
+   69  cat second.txt 
+   70  git status
+   71  git commit 
+   72  git commit -m "2nd Commit"
+   73  git push origin master
+   74  ls -ltr
+   75  git push origin master
+   76  history
+   77  git push origin https://github.com/hsuresh3686/test.git
+   78  git push origin git@github.com:hsuresh3686/test.git
+   79  git push origin https://hsuresh3686@bitbucket.org/hsuresh3686/testrepo.gi
+   80  git push origin https://hsuresh3686@bitbucket.org/hsuresh3686/testrepo.git
+   81  ls -ltr
+   82  cd ../
+   83  cd ../
+   84  ls -ltr
+   85  cd F:
+   86  dir
+   87  cd DevOps_Practice/
+   88  ls -ltr
+   89  mkdir gitrepo
+   90  cd gitrepo
+   91  ls -ltr
+   92  git init
+   93  ls -ltr
+   94  git clone https://hsuresh3686@bitbucket.org/hsuresh3686/testrepo.git
+   95  ls -ltr
+   96  cd testrepo/
+   97  ls -ltr
+   98  echo "2nd File" > 2.txt
+   99  ls -ltr
+  100  git status
+  101  git commit
+  102  exit
+  103  id
+  104  git --version
+  105  f:
+  106  cd f:
+  107  cd GitPractice/
+  108  ls -ltr
+  109  git init
+  110  ls -ltr
+  111  ls -ltra
+  112  git config --global user.name "SuresH"
+  113  git config --global user.email "hsuresh3686@gmail.com"
+  114  git status
+  115  touch 123.txt
+  116  git status
+  117  git add 123.txt 
+  118  git status
+  119  git rm --cached 123.txt 
+  120  git status
+  121  git add .
+  122  git status
+  123  git status
+  124  vi 123.txt 
+  125  git status
+  126  git add
+  127  git add.
+  128  git add. .
+  129  git add .
+  130  git status
+  131  git commit
+  132  git status
+  133  ls -ltr
+  134  cat 123.txt 
+  135  vi 123.txt 
+  136  git status
+  137  git add .
+  138  git commit -m "Changed"
+  139  git status
+  140  git branch additional
+  141  git status
+  142  git commit -m "Another change"
+  143  git status
+  144  git checkout additional
+  145  touch second.txt
+  146  git status
+  147  git commit -m "From Branch
+"
+  148  git status
+  149  git checkout master
+  150  dir
+  151  git status
+  152  git checkout additional
+  153  touch 23456.txt
+  154  git add .
+  155  git checkout master
+  156  git checkout additional
+  157  git add .
+  158  git statis
+  159  git status
+  160  git checkout master
+  161  git checkout additional
+  162  git commit -m "From Branch"
+  163  git status
+  164  git checkout master
+  165  git checkout additional
+  166  git checkout master
+  167  git checkout additional
+  168  git merge
+  169  git checkout additional
+  170  git checkout master
+  171  git merge additional
+  172  git checkout additional
+  173  git checkout master
+  174  dir
+  175  git status
+  176  git remote add origin git@github.com:hsuresh3686/secondrepo.git
+  177  git remote
+  178  git push -u origin master
+  179  history
+  180  dir
+  181  touch sample.txt
+  182  vi sample.txt 
+  183  git status
+  184  git commit "Latest"
+  185  git commit -m "Latest"
+  186  git add .
+  187  git status
+  188  git push
+  189  dir
+  190  git status
+  191  git push
+  192  git push -u origin master
+  193  git remote add origin https://github.com/hsuresh3686/secondrepo.git
+  194  git push -u origin master
+  195  dir
+  196  git push
+  197  touch dfkjdfkjs.txt
+  198  git status
+  199  git add .
+  200  git status
+  201  git commit -m "Check"
+  202  git status
+  203  git push
+  204  history > cmdhistory.txt
